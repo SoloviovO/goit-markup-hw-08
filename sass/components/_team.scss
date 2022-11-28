@@ -5,8 +5,9 @@
 .team-list {
   display: flex;
   gap: 30px;
+}
 
-  &__item {
+.team-list__item {
     width: 270px;
     text-align: center;
     background-color: $main-light-color;
@@ -15,11 +16,11 @@
     border-radius: 0px 0px 4px 4px;
   }
 
-  &__data {
+  .team-list__data {
     padding: 30px;
   }
 
-  &__member {
+  .team-list__member {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -28,11 +29,10 @@
     line-height: calc(19 / 16);
   }
 
-  &__prof {
+  .team-list__prof {
     margin-bottom: 16px;
     color: $secondary-text-color;
     font-size: 16px;
     letter-spacing: 0.03em;
     line-height: calc(19 / 16);
   }
-}
