@@ -1,0 +1,28 @@
+body {
+  color: $primary-text-color;
+  background-color: $main-light-color;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.picture {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
