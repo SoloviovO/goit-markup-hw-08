@@ -1,26 +1,28 @@
-@import './utils/normalize';
 @import './utils/variables';
-@import './utils/common';
-@import './components/title';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+@import './layout/title';
 @import './components/subtitle';
-@import './components/container';
-@import './components/section';
-@import './components/visually-hidden';
 @import './components/button';
-@import './components/header';
-@import './components/logo';
-@import './components/site-nav';
-@import './components/contacts';
-@import './components/hero';
-@import './components/benefits';
-@import './components/actings';
-@import './components/team';
 @import './components/social';
-@import './components/clients';
-@import './components/footer';
-@import './components/location';
-@import './components/sign-up';
+@import './components/logo';
+@import './components/header';
 @import './components/backdrop-modal';
 @import './components/modal-form';
 @import './components/form';
-@import './components/kind-cards';
+
+@import './layout/site-nav';
+@import './layout/contacts';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/actings';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/location';
+@import './layout/sign-up';
+@import './layout/kind-cards';
