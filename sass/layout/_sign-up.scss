@@ -1,10 +1,24 @@
 .signup {
-  margin-left: auto;
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    margin-right: 0;
+  }
 }
 
 .signup-form {
   display: flex;
-  gap: 10px;
+  gap: 12px;
+
+  @media screen and (max-width: 1199px) {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 20px;
+  }
 }
 
 .signup-form__button {
@@ -24,7 +38,7 @@
 
 .signup-form__input {
   padding: 14px 16px;
-  width: 358px;
+  width: 450px;
   outline: none;
   background-color: transparent;
   border: 1px solid $singup-border-color;
@@ -40,6 +54,10 @@
 
   &:focus {
     border-color: $accent-color;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
   }
 }
 

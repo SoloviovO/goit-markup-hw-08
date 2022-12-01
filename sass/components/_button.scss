@@ -21,9 +21,14 @@
 
 .button-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin-bottom: 50px;
   gap: 8px;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .button-list__filter {
