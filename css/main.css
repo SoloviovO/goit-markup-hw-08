@@ -289,7 +289,7 @@ ul {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 48px 40px;
+  padding: 48px 40px 56px;
   background-color: #ffffff;
   overflow-y: scroll;
   z-index: 999;
