@@ -36,9 +36,21 @@
   fill: currentColor;
 }
 
+.signup-form_label {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
+}
+
 .signup-form__input {
   padding: 14px 16px;
-  width: 450px;
+  width: 100%;
   outline: none;
   background-color: transparent;
   border: 1px solid $singup-border-color;
@@ -54,6 +66,9 @@
 
   &:focus {
     border-color: $accent-color;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 450px;
   }
 
   @media screen and (min-width: 1200px) {
