@@ -29,7 +29,7 @@
   color: $accent-color;
 
   @media screen and (max-width: 440px) {
-    font-size: 10px;
-    line-height: calc(22 / 10);
+    font-size: 12px;
+    line-height: calc(22 / 12);
   }
 }
