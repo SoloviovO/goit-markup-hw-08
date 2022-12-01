@@ -55,8 +55,14 @@
   right: 15px;
 }
 
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .mobile-menu__nav {
-  margin-bottom: 302px;
+  margin-bottom: auto;
 }
 
 .mobile-menu__item:not(:last-child) {
@@ -101,6 +107,10 @@
   }
 
   &--big-size {
+    @media screen and (max-width: 340px) {
+      font-size: 28px;
+      line-height: calc(36 / 28);
+    }
     font-size: 34px;
     line-height: calc(40 / 34);
   }
