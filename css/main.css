@@ -571,15 +571,15 @@ ul {
 }
 @media screen and (min-width: 480px) {
   .backdrop__modal {
-    top: 50%;
     width: 450px;
     height: 609px;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
   }
 }
 @media screen and (min-width: 1200px) {
   .backdrop__modal {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
     width: 528px;
     height: 581px;
   }
@@ -1028,7 +1028,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.8px) {
   .benefits-list__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1057,6 +1057,11 @@ ul {
   line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767.8px) {
+  .benefits-list__subtitle {
+    text-align: center;
+  }
 }
 
 .benefits-list__text {
