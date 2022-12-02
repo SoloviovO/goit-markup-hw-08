@@ -798,7 +798,7 @@ ul {
   display: flex;
   gap: 50px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.8px) {
   .site-nav {
     display: none;
   }
@@ -842,7 +842,7 @@ ul {
   color: #2196f3;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.8px) {
   .contacts {
     display: none;
   }
