@@ -22,9 +22,9 @@
 
   &::after {
     position: absolute;
+    content: '';
     bottom: -1px;
     left: 0;
-    content: '';
     min-width: 100%;
     height: 4px;
     background: transparent;

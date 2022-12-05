@@ -22,7 +22,7 @@
   @media screen and(min-width: 480px) {
     background-image: linear-gradient(to right, $gradient-color, $gradient-color),
       url(../images/hero/hero-768.jpg);
-    max-width: 1200px;
+    max-width: 768px;
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
@@ -46,7 +46,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
   }
